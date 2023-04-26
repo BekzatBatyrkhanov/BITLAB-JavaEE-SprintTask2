@@ -6,8 +6,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="BITLAB-JavaEE" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-j-8.0.32" />
+        </element>
       </element>
-      <element id="javaee-facet-resources" facet="BITLAB-JavaEE/web/Web" />
+      <element id="javaee-facet-resources" facet="BITLAB-JavaEE/web/Web2" />
     </root>
   </artifact>
 </component>

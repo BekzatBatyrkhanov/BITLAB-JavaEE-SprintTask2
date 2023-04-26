@@ -16,6 +16,6 @@ public class DeleteTaskServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("task_id"));
 
         DBManager.deleteTask(id);
-        response.sendRedirect("/");
+        response.sendRedirect("/tasks");
     }
 }

@@ -27,6 +27,6 @@ public class AddTaskServlet extends HttpServlet {
 
         DBManager.addTask(task);
 
-        response.sendRedirect("/");
+        response.sendRedirect("/tasks");
     }
 }
