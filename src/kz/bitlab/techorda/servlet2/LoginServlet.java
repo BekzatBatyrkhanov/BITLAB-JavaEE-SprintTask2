@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
         else {
             request.setAttribute("error", "invalid");
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("login.jsp");
-            requestDispatcher.include(request, response);
+            requestDispatcher.forward(request,response);
 
         }
     }
